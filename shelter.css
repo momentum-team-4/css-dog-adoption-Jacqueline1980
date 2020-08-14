@@ -11,31 +11,33 @@ body {
     font-family: sans-serif;
     max-width: 100%;
 }
-
 img {
     width: 20rem;
     display: flex;
     flex-direction: row;
 }
+
 p {
-    flex-direction: 
+    flex-direction: row
 }
 .dog-trait {
     background-color: #89DEEF;
-    padding: 1px;
-    margin: 0 1rem;
+    list-style: none;
+    padding: 0.5rem 1rem 0.5rem 0;
     display: inline-block;
 
 }
 ul{  
     width: unset;
     margin: 0 auto;
-    display: inline-flexbox;
+    
 }
 .all-dogs {
     display: flex;
     flex-flow: wrap;
     align-items: flex-start;
+    size: width;
+
 }
 footer {
     display: inline-flex;
