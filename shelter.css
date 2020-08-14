@@ -9,5 +9,39 @@
 
 body {
     font-family: sans-serif;
-    display: inline block;
+    max-width: 100%;
+}
+
+img {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+}
+p {
+    flex-direction: 
+}
+.dog-trait {
+    background-color: #89DEEF;
+    padding: 1px;
+    margin: 0 1rem;
+    display: inline-block;
+
+}
+ul{  
+    width: unset;
+    margin: 0 auto;
+    display: inline-flexbox;
+}
+.all-dogs {
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-start;
+}
+footer {
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
 }
